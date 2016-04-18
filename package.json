@@ -1,0 +1,39 @@
+{
+  "name": "hubot-collibra",
+  "main": "index.coffee",
+  "description": "Hubot Script to search a Collibra DGC Instance",
+  "version": "0.1.2",
+  "author": {
+    "name": "Steve Litras",
+    "email": "steve.litras@autodesk.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "collibra"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@git.autodesk.com:litrass/hubot-collibra.git"
+  },
+  "bugs": {
+    "url": "https://git.autodesk.com/litrass/hubot-collibra/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "hubot": "2.x",
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-release": "~0.6.0",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "homepage": "https://git.autodesk.com/litrass/hubot-collibra"
+}
